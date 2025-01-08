@@ -14,6 +14,18 @@ git push origin <sourcebranch>
 ### To check/verify the modified content in existing file,
 git diff <filename>
 
+### To create branch 
+
+git branch
+git checkout main
+git pull
+git checkou -b <branchname>
+
+### course
+Class01 - intro,devSetuo, working with git and commands
+
+Class02 - Intro to python,shebang line and usage,Dynamic Typing, Basic data types supports, Indentation issue
+
 
 
 
