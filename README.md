@@ -7,6 +7,13 @@
  git add <filename>
 ### to commit the changes:
 git commit -m "commit message"
+### to push the changes:
+git push origin <sourcebranch>
+    class01 -- main
+    git push origin class01
+### To check/verify the modified content in existing file,
+git diff <filename>
+
 
 
 
