@@ -31,3 +31,5 @@ Class02 - Intro to python,shebang line and usage,Dynamic Typing, Basic data type
 
 
 
+
+
