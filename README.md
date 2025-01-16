@@ -24,8 +24,31 @@ git checkou -b <branchname>
 ### course
 Class01 - intro,devSetuo, working with git and commands
 
-Class02 - Intro to python,shebang line and usage,Dynamic Typing, Basic data types supports, Indentation issue
+class02 
 
+    Introduction to python
+    shebang line & usage
+    Dynamic Typing
+    Basic data types supports 
+    Indentation issue 
+
+class03 
+
+    built-in functions
+    Comment Operator
+    keywords and Identifiers
+    strictly-typed and data type conversions
+    python interactive mode
+    Line continuation operator
+
+class 04 
+
+02.Basics
+    Arithmetic operations
+        +, -, , /, //, %, *
+        divmod() function
+        compound operations
+        jupyter notebook 
 
 
 
