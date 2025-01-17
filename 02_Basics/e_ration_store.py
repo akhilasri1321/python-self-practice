@@ -16,7 +16,7 @@ Purpose: Ration Store
                                 --------------------
                                 BillableAmount:1080/-
 
-Algorithm
+Algorithm (process we are using for execution)
 ---------
 Step 1:  Get the cost of items into variables
 Step 2:  Get the quantity of items into variables
@@ -27,14 +27,25 @@ Step 4:  Compute the subsidy amount and subtract
 Step 5:  Display the Billable Amount
 
 """
+# cost of Items
+cost_of_wheat = 25 # per kg
+cost_of_rice = 12 # per kg
 
-wheat_per_unit = 25
-rice_per_unit = 12
-quan_wheat =30
-quan_rice =50
+# Quantities of Items
+qty_of_wheat = 30  # kgs
+qty_of_rice = 50  # kgs
 
-selling_price_per_unit = (wheat_per_unit*quan_wheat)+(rice_per_unit*quan_rice)
-print("Selling_Price = ", selling_price_per_unit)
-subsidy = selling_price_per_unit *20/100
-print("subsidy = ",subsidy,
-    "\nBillable Amount = ", selling_price_per_unit-subsidy)
+
+# Selling Price Computation
+sp_of_wheat = cost_of_wheat * qty_of_wheat
+sp_of_rice = cost_of_rice * qty_of_rice
+
+total_sp = sp_of_wheat + sp_of_rice
+print("Total Selling Price:", total_sp)
+
+# Subsidy calculation at 20 % subsidy
+subsidy_amount  = total_sp * (20/ 100) # PEMDAS
+print("Subsidy Amount     :", subsidy_amount)
+
+billable_amount = total_sp - subsidy_amount
+print("Billable Amount    :", billable_amount)
