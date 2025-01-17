@@ -27,3 +27,14 @@ Step 4:  Compute the subsidy amount and subtract
 Step 5:  Display the Billable Amount
 
 """
+
+wheat_per_unit = 25
+rice_per_unit = 12
+quan_wheat =30
+quan_rice =50
+
+selling_price_per_unit = (wheat_per_unit*quan_wheat)+(rice_per_unit*quan_rice)
+print("Selling_Price = ", selling_price_per_unit)
+subsidy = selling_price_per_unit *20/100
+print("subsidy = ",subsidy,
+    "\nBillable Amount = ", selling_price_per_unit-subsidy)
