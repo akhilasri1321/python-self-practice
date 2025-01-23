@@ -51,6 +51,31 @@ class 04
         jupyter notebook 
 
 
+[class 05 ]
+            Practical Problem solving
+            working with complex numbers
+            abs() function
+            Operator precedence in Arithmetic operations
+
+[class 06 ]
+   02.Basics
+        String operations
+            Usage of single, double and triple quotes
+            len() function
+            Indexing 
+            
+[class 07 ]
+            Slicing Strings
+            string attributes
+class 08 
+
+        String formatting: old & new styles, f-strings
+        bytearray() and byte() strings
+        unicode strings
+        Usage of help
+        Usage of pydoc
+
+
 
 
 
