@@ -2,9 +2,9 @@
 """
 Purpose: bytearray strings
 """
-o;
 
-# ordinary_string[9:17] = 'is '
+ordinary_string = "Tomorrow will be ours!!!"
+#ordinary_string[9:17] = 'is '
 # TypeError: 'str' object does not support item assignment
 
 print(ordinary_string[:9] + "is " + ordinary_string[17:])
@@ -58,5 +58,5 @@ print("ord('o'):", ord("o"))
 # HINTS: ord(), chr(), %
 
 text = input("Enter text: ")  # Get input from the user
-result = "".join(chr(ord(c) + 3) for c in text)  # Shift each character by 3
+result = "".join(chr(ord(c) + 3) if c.isalpha() else c for c in text)  # Shift each character by 3
 print("Shifted text:", result)  # Print the result
