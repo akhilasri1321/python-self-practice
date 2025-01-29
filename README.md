@@ -75,6 +75,15 @@ class 08
         Usage of help
         Usage of pydoc
 
+class 09 
+
+03.Language Components
+    Relational Operations
+    Logical Operations
+    Boolean Operations
+    Bitwise Operations
+    Identity Operations
+    range() function
 
 
 
